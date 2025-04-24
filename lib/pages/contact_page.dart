@@ -149,7 +149,10 @@ class _ContactPageState extends State<ContactPage> {
         const SizedBox(height: 20),
         _buildInfoItem(context, Icons.phone_outlined, 'Call Us', '9654676790', onTap: () => _launchUrl('tel:9654676790')),
         const SizedBox(height: 20),
-       /* _buildInfoItem(context, Icons.email_outlined, 'Email Us', 'info@elitecoaching.com', onTap: () => _launchUrl('mailto:info@elitecoaching.com')),
+        _buildInfoItem(context, Icons.message_outlined, 'WhatsApp Us', '9654676790', onTap: () => _launchUrl('https://wa.me/919654676790?text=Hi sir')),
+        const SizedBox(height: 20),
+
+        /* _buildInfoItem(context, Icons.email_outlined, 'Email Us', 'info@elitecoaching.com', onTap: () => _launchUrl('mailto:info@elitecoaching.com')),
         const SizedBox(height: 20),*/
         _buildInfoItem(context, Icons.access_time_outlined, 'Working Hours', 'Mon - Sun: 8:00 AM - 7:00 PM\nSaturday-Sunday: Weekend classes available'),
       ],
