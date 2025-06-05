@@ -22,12 +22,12 @@ pipeline {
    //         }
    //     }
 
-        stage('Get Dependencies') {
-            steps {
-                echo 'Fetching Flutter dependencies...'
-                sh 'flutter pub get'
-            }
-        }
+      //  stage('Get Dependencies') {
+      //      steps {
+       //         echo 'Fetching Flutter dependencies...'
+       //         sh 'flutter pub get'
+        //    }
+       // }
         
         stage('Flutter Build App Bundle') {
             steps {
