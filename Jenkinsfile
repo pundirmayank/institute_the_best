@@ -17,8 +17,12 @@ pipeline {
         
     stage('Setup Flutter') {
             steps {
-                sh '${FLUTTER_HOME}flutter --version'
-                sh '${FLUTTER_HOME}flutter doctor -v' // Good for debugging environment issues
+               // sh '${FLUTTER_HOME}flutter --version'
+                //sh '${FLUTTER_HOME}flutter doctor -v' // Good for debugging environment issues
+                 sh '''
+                  #!/bin/sh
+                  flutter build apk --debug
+                  '''
             }
         }
 
