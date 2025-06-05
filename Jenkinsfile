@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        FLUTTER_HOME = "D:\\Mayank\\flutter_plugin\\flutter_3.29.2\\flutter\\bin"
+        FLUTTER_HOME = "D:\\Mayank\\flutter_plugin\\flutter_3.29.2\\flutter\\bin\\"
         ANDROID_HOME = "C:\\Users\\Mayank Pundir\\AppData\\Local\\Android\\Sdk"
         JAVA_HOME = "C:\\Program Files\\Java\\jdk-17\\"
     }
