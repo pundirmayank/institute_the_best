@@ -12,7 +12,7 @@ pipeline {
         
         stage('Build') {
             steps {
-                sh "flutter doctor -v"
+                bet "flutter doctor -v"
             }
         }        
     }
