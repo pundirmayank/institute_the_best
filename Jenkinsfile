@@ -15,12 +15,12 @@ pipeline {
             }
         }
         
-   // stage('Setup Flutter') {
-   //         steps {
-   //             sh 'flutter --version'
-   //             sh 'flutter doctor -v' // Good for debugging environment issues
-   //         }
-   //     }
+    stage('Setup Flutter') {
+            steps {
+                sh '${FLUTTER_HOME}flutter --version'
+                sh '${FLUTTER_HOME}flutter doctor -v' // Good for debugging environment issues
+            }
+        }
 
       //  stage('Get Dependencies') {
       //      steps {
